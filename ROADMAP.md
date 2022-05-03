@@ -21,7 +21,7 @@ _Não esquecer de remover as importações dentro dos \*.tsx_
 
 - Remover o conteúdo de dentro do Return no arquivo `src\App.tsx` e colocar algum Html simples so pra exibir se esta funcionando;
 
-#### 4. Instalar lin Tailwind CSS
+#### 4. Instalar lib Tailwind CSS
 
 `yarn add -D tailwindcss postcss autoprefix`
 ou
@@ -30,6 +30,7 @@ em seguida executa:
 `npx tailwindcss init -p`
 
 _Ver documentação oficial!_
+https://tailwindcss.com/docs
 
 - Ajusta `tailwindcss.config.js`:
 
@@ -70,6 +71,13 @@ module.exports = {
 ```
 import "./global.css";
 ```
+
+#### 5. Instalar lib de Icons Phosporicon,
+
+`yarn add phosphor-react`
+
+_Ver documentação oficial!_
+https://github.com/phosphor-icons/phosphor-home#react
 
 ## Tips & Tricks
 

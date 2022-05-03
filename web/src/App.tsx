@@ -1,32 +1,5 @@
-interface ButtonProps {
-  text: string;
-}
+import { Widget } from "./components/Widget";
 
-function Button(props: ButtonProps) {
-  return (
-    <button
-      className="
-              bg-violet-600 
-              px-5 
-              h-10 
-              rounded 
-              text-violet-200 
-              hover:bg-violet-800 
-              transition-colors"
-    >
-      {props.text}
-    </button>
-  );
+export function App() {
+  return <Widget />;
 }
-
-function App() {
-  return (
-    <div className="flex gap-2">
-      <Button text="Salvar" />
-      <Button text="Editar" />
-      <Button text="Fechar" />
-    </div>
-  );
-}
-
-export default App;
