@@ -76,8 +76,12 @@ import "./global.css";
 
 `yarn add phosphor-react`
 
+#### 6. Instalar lib para acessibilidade Headless UI,
+
+`yarn add @headlessui/react`
+
 _Ver documentação oficial!_
-https://github.com/phosphor-icons/phosphor-home#react
+https://headlessui.dev/
 
 ## Tips & Tricks
 
